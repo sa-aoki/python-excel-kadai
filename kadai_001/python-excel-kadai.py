@@ -48,6 +48,7 @@ data = [
 for row in data:
     ws.append(row)
 ws.insert_cols(1,1)
+ws.insert_rows(8,2)
 
 
 
